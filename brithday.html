@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz cumpleaños</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+</head>
+
+<body>
+    <audio autoplay id="audio">
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner slide">
+          <div class="carousel-item active">
+            <div class="all">
+                <h1 class="title">
+                    Feliz cumpleaños gordita
+                </h1>
+                <div class="content">
+                    <div class="image">
+                        <img src="bie.jpg" alt=""> 
+                    </div>
+                    <div class="description">
+                        <div class="box"></div>
+                        <h1>¡Hoy cumples un año mas de vida!</h1>
+                        <p>
+                            Han pasado muchas cosas desde que nos conocimos y me alegra haber podido compartir todas ellas
+                            contigo. ¡Este día sumas un año más lleno de grandiosos recuerdos! Mis más sinceros deseos para que
+                            tu vida te lleve siempre a recorrer los mejores caminos para cumplir tus objetivos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="all">
+                <h1 class="title">
+                    Feliz cumpleaños gordita
+                </h1>
+                <div class="content">
+                    <div class="image">
+                        <img  id="esta"  src="esta.jpeg" alt="">
+                    </div>
+                    <div class="description">
+                        <div class="box"></div>
+                        <h1>Cosas que sabes, pero igual te las diré</h1>
+                        <p>
+                           Eres la gordita mas bonita que conozco, como dicen ustedes las mujeres "estas bien potra". Si hablo de tu perosonalidad podria resumir todo con esta frase "eres la mejor amistad, compañera, confidente que cualquiera queria tener", nunca cambies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="all">
+                <h1 class="title">
+                    Feliz cumpleaños gordita
+                </h1>
+                <div class="content">
+                    <div class="image">
+                        <video src="sorry.mp4" autoplay loop controls ></video>
+                    </div>
+                    <div class="description">
+                        <div class="box"></div>
+                        <h1>Gracias por hacerme reir</h1>
+                        <br>
+                        <p>
+                           Cule cara malparida pones tú jajajaja, imposible no reirme. Mil años de vida para ti por eso.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="all">
+                <h1 class="title">
+                    Feliz cumpleaños gordita
+                </h1>
+                <div class="content">
+                    <div class="image">
+                        <img src="finish.jpeg" id="esta" alt="">
+                    </div>
+                    <div class="description">
+                        <div class="box"></div>
+                        <h1>Ya me despido...</h1>
+                        <br>
+                        <p>
+                           Que la pases super y aprovecha tu dia jaja, cabeza pela', no será la gran cosa pero esto es lo que se hacer y lo hago con todo el cariño del mundo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon avanzar"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon avanzar"></span>
+        </a>
+      </div>
+      <script>
+            $('.carousel').carousel({
+    interval: 100000
+    })
+      </script>
+</body>
+
+</html>
